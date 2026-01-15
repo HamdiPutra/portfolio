@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portofolio</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<nav class="navbar bg-dark navbar-expand-lg p-4 fixed-top" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Hamdi Putra</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#service">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portofolio">Portofolio</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="hero" id="hero">
+    <img src="image/hero.png" alt="">
+    <div class="hero-title">
+        <h4>Hamdi Putra</h4>
+        <h6>Web Programmer</h6>
+    </div>
+</section>
+
+<section class="about py-5" id="about">
+    <div class="container">
+        <div class="card shadow-lg rounded-4 p-4">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-5 text-left">
+                        <img src="image/hamdi.jpg" alt="" class="rounded-4 about-img" width="300px" height="400px">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="fw-bold mb-3">Tentang Saya</h2>
+                        <p class="lead mb-3">
+                            Halo! Saya <strong>Hamdi Putra</strong>, lulusan <strong>Sistem Informasi</strong> dari
+                            <strong>Universitas Metamedia</strong>. Saya adalah seorang <strong>Web Programmer</strong>
+                            yang antusias dalam membangun aplikasi berbasis web dengan fokus pada tampilan yang menarik
+                            dan fungsionalitas yang efisien.
+                        </p>
+
+                        <h4 class="fw-bold mt-4 mb-3">Skill</h4>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge bg-primary px-3 py-2 rounded-pill">HTML</span>
+                            <span class="badge bg-primary px-3 py-2 rounded-pill">CSS</span>
+                            <span class="badge bg-primary px-3 py-2 rounded-pill">PHP</span>
+                            <span class="badge bg-primary px-3 py-2 rounded-pill">Laravel</span>
+                            <span class="badge bg-primary px-3 py-2 rounded-pill">Bootstrap</span>
+                            <span class="badge bg-primary px-3 py-2 rounded-pill">MySQL</span>
+                            <span class="badge bg-primary px-3 py-2 rounded-pill">Git</span>
+                            <span class="badge bg-primary px-3 py-2 rounded-pill">Github</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="experience-education py-5">
+    <div class="container">
+        <h3 class="text-center fw-bold mb-3">Pengalaman dan Pendidikan</h3>
+        <hr class="mx-auto" style="width:80px; height:3px; background-color:#0d6efd; border:0; border-radius:3px;">
+        <div class="row">
+            <div class="col md-6">
+                <div class="card border-0 shadow-sm rounded-4 p-4">
+                    <h4 class="fw-bold mb-3"><i class="bi bi-briefcase-fill text-primary me-2"></i> Pengalaman</h4>
+                    <div class="timeline">
+                        <div class="timeline-item mb-4">
+                            <h6 class="fw-semibold mb-1">Kelas PHP Dasar</h6>
+                            <p class="text-muted mb-1">Komunitas Kafe Koding, Universitas Metamedia, 2023</p>
+                            <p class="small">Mempelajari dasar-dasar pemrograman PHP dan pembuatan aplikasi CRUD
+                                menggunakan PHP & MySQL.</p>
+                        </div>
+                        <div class="timeline-item mb-4">
+                            <h6 class="fw-semibold mb-1">Pelatihan Mikrotik</h6>
+                            <p class="text-muted mb-1">Universitas Metamedia, 2023</p>
+                            <p class="small">Mempelajari konfigurasi dasar jaringan, pengelolaan bandwidth, serta
+                                keamanan jaringan menggunakan Mikrotik RouterOS.</p>
+                        </div>
+                        <div class="timeline-item mb-4">
+                            <h6 class="fw-semibold mb-1">Magang Studi Independen Bersertifikat (MSIB)</h6>
+                            <p class="text-muted mb-1">Gamelab Indonesia, Februari - Juni 2024</p>
+                            <p class="small">Program kampus merdeka yang mengkonversi SKS selama satu semester
+                                perkuliahan.Pada program ini saya mempelajari pembuatan website mulai dari dasar
+                                pembuatan website seperti HTML CSS,PHP, Laravel, dan MySQL untuk manajemen basis data.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm rounded-4 p-4">
+                    <h4 class="fw-bold mb-3"><i class="bi bi-mortarboard-fill text-success me-2"></i> Pendidikan</h4>
+                    <div class="timeline">
+                        <div class="timeline-item mb-4">
+                            <h6 class="fw-semibold mb-1">S1 Sistem Informasi</h6>
+                            <p class="text-muted mb-1">Universitas Metamedia . 2021 - 2025</p>
+                            <p class="small">Fokus pada pengembangan web, dan basis data.
+                                Aktif dalam berbagai kegiatan akademik dan organisasi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="service py-5" id="service">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-4">Layanan Saya</h2>
+        <hr class="mx-auto" style="width:80px; height:3px; background-color:#0d6efd; border:0; border-radius:3px;">
+        <p class="text-muted mb-5">
+            Saya menawarkan layanan profesional dalam bidang <strong>Web Development</strong>
+            untuk membantu anda memiliki website yang modern, cepat, dan responsif.
+        </p>
+
+        <div class="card border-0 shadow-lg rounded-4 p-5 mx-auto" style="max-width: 600px;">
+            <div class="service-icon mb-3">
+                <i class="bi bi-code-slash text-primary fs-1"></i>
+            </div>
+            <h4 class="fw-bold mb-2">Web Development</h4>
+            <p class="text-muted">
+                Membangun website dinamis menggunakan teknologi modern seperti
+                <strong>PHP, Laravel, MySQL, dan Bootstrap</strong>.
+            </p>
+            <a href="#" class="btn btn-primary mt-3 px-4">Hubungi Saya</a>
+        </div>
+    </div>
+</section>
+
+
+<section class="portfolio py-4" id="portofolio">
+    <div class="container">
+        <h3 class="text-center fw-bold mb-3">Portofolio</h3>
+        <hr class="mx-auto" style="width:80px; height:3px; background-color:#0d6efd; border:0; border-radius:3px;">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/port11.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/port12.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/port13.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-title text-center fw-bold">Aplikasi Monitoring Pengelolaan Tiket Bus</div>
+                        <p class="card-text">Aplikasi berbasis web untuk memonitoring penjualan tiket bus dengan kursi
+                            berwarna merah adalah kursi yang sudah dipesan, kursi yang berwarna abu adalah masih
+                            tersedia. Melalui website ini pelanggan bisa searching jadwal bus dan melakukan pemesanan
+                            tiket bus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div id="carouselExampleIndicators2" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/port31.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/port32.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/port33.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-title text-center fw-bold">Sistem Informasi Reservasi Penginapan
+                        </div>
+                        <p class="card-text">Sistem berbasis web untuk melakukan reservasi penginapan, melalui aplikasi
+                            pengunjung bisa melihat kamar kamar yang masih tersedia dan melakukan pemesanan kamar
+                            penginapan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div id="carouselExampleIndicators3" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/port23.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/port21.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/port22.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-title text-center fw-bold">Website Pendaftaran Lomba Business Plan</div>
+                        <p class="card-text">Webiste ini berfungsi untuk melakukan pendaftaran lomba business plan bagi
+                            peserta dengan mengisi data kelompok dan file proposal dalam bentuk file PDF.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer py-4">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="text-center">Copyright &copy; Hamdi Putra 2025
+            </h5>
+            <div class="row">
+                <div class="col">
+                    <p class="sosmed"><a href="https://www.instagram.com/_hamdiputra?igsh=MXNvcGVjdmwycWVmcw=="><i
+                                class="bi bi-instagram"></i></a> <a href="https://www.facebook.com/Hamdi Putra"><i
+                                class="bi bi-facebook"></i></a> <a href="https://www.github.com/hamdiputra"><i
+                                class="bi bi-github"></i></a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
