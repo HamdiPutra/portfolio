@@ -80,6 +80,32 @@
 .card-title{
     color: #0d6efd;
 }
+
+/* portfolio */
+.portfolio {
+    background-color: #f8f9fa;
+}
+
+.portfolio-card {
+    border-radius: 16px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-carousel img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #0d6efd;
+}
+
 /* footer */
 .footer {
     background: #f8f9fa;
